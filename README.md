@@ -1,7 +1,23 @@
 ## React Native OpenALPR
 This project wraps [OpenALPR Android](https://github.com/SandroMachado/openalpr-android) library.
 
-## Installing it as a library in your main project
+## Repository
+
+First, add the following to your project's `build.gradle` file:
+
+```Gradle### Mostly automatic install with react-native
+1. `npm install react-native-camera@https://github.com/lwansbrough/react-native-camera.git --save`
+3. `react-native link react-native-camera`
+repositories {
+    maven { url "https://jitpack.io" }
+}
+```
+
+### Mostly automatic install with react-native
+1. `npm install --save git+https://github.com/josuesasilva/react-native-openalpr.git`
+2. `react-native link react-native-openalpr`
+
+## Manual install library in your main project
 There are many ways to do this, here's the way I do it:
 
 1. Push it to **GitHub**.
