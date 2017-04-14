@@ -56,9 +56,9 @@ There are many ways to do this, here's the way I do it:
     ```javascript
     import OpenALPR from 'react-native-openalpr'
 
-		OpenALPR.start((result) => {
-			JSON.parse(result);
-		},
-		(error) => {
-			JSON.parse(error);
-		});
+    OpenALPR.start((result) => {
+      JSON.parse(result);
+    },
+    (error) => {
+      JSON.parse(error);
+    });
