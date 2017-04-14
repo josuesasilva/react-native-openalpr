@@ -5,9 +5,7 @@ This project wraps [OpenALPR Android](https://github.com/SandroMachado/openalpr-
 
 First, add the following to your project's `build.gradle` file:
 
-```Gradle### Mostly automatic install with react-native
-1. `npm install react-native-camera@https://github.com/lwansbrough/react-native-camera.git --save`
-3. `react-native link react-native-camera`
+```gradle
 repositories {
     maven { url "https://jitpack.io" }
 }
